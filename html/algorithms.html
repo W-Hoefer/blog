@@ -13,7 +13,12 @@
       <h1>Programmer's Corner</h1>
     </header>
     <aside>
-      <a href="html/algorhythms.html" alt="Make your code more efficient">
+      <a href="../index.html" alt="Home">
+        <div class="posts">
+          <h1>Home</h1>
+        </div>
+      </a>
+      <a href="#" alt="Make your code more efficient">
         <div class="posts active">
           <h1>Algorithms</h1>
         </div>
@@ -29,7 +34,7 @@
         </div>
       </a>
     </aside>
-    <main><h1>Efficient Algorithms</h1>
+    <main><h1><em>Efficient Algorithms</em></h1>
       <p>Imagine you come across the following task: add all numbers from 1 to 1,000,000...</p>
       <p>So how do we do this? One way would be to use a loop:</p>
       <div class="code-box">
@@ -47,7 +52,7 @@
         CPU power nowadays. At the other hand, what if you could get the result without
         having to loop a million times?</p>
       <p>You may already have heard of Carl Friedrich Gauß. He found a useful formula to calculate this:</p>
-      <p>n * (n + 1) / 2</p>
+      <p><strong>n * (n + 1) / 2</strong></p>
       <p>
         Which brings us back to our previous task but instead the loop we use this formula:
       </p>
@@ -62,9 +67,19 @@
       <p>As one can imagine, this could have an big impact in huge calculation heavy  applications
          and it is always worth to make your code as efficient and light on ressources as possible.
       </p>
+      <hr><br>
+      <div id="author">
+        <em>Author: </em>Werner Höfer<br>
+        <em>About: </em>Full-Stack Web Development Student at Masterschool<br>
+        <em>Bio: </em>49 years old, living currently in Germany<br>
+    </div>
+    <p>Like on <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">LinkedIn</a></p>
     </main>
     <footer>
-      <a href ="../index.html">home</a>/algorithms
+      Subscribe for notifications on new posts:
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" required>
+      <input type="submit" value="Subscribe!">
     </footer>
   </div>
 </body>

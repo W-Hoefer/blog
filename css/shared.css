@@ -1,0 +1,21 @@
+p {
+    font-size: 20px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.posts {
+    display:flex;
+    justify-content: center;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 10px grey;
+    margin: 20px;
+    background-color: #fff;
+}
+  
+.posts:hover {
+    border: 1px solid rgb(139, 180, 233);
+    box-shadow: 5px 5px 10px rgb(175, 223, 250);
+}
